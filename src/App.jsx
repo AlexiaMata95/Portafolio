@@ -17,14 +17,11 @@ function App() {
       <a href="#about-me" className='navegacion'>
         Acerca de mí
       </a>
-      <a href="#" className='navegacion'>
+      <a href="#techskills" className='navegacion'>
         Habilidades
       </a>
-      <a href="#" className='navegacion'>
+      <a href="#portfolio" className='navegacion'>
         Portafolio
-      </a>
-      <a href="#" className='navegacion'>
-        Educación
       </a>
       </div>
       <hr />
