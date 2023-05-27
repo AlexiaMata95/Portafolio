@@ -33,6 +33,16 @@ body{
   margin: 0 3rem;
   font-weight: 400;
 }
+.contacto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 20rem;
+  height: 4rem;
+}
+.contacto img{
+  height: 3rem;
+}
 .navbar{
   display: flex;
   align-items: center;

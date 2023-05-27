@@ -6,6 +6,8 @@ import diploma from './assets/3.png'
 import Front from './components/front'
 import Back from './components/back'
 import Soft from './components/soft'
+import link from './assets/16.png'
+import git from './assets/17.png'
 import Carouselitem from './components/carouselitem'
 
 function App() {
@@ -13,6 +15,10 @@ function App() {
     <>
       <section>
       <Presentacion/>
+      <div className="contacto">
+        <a href="https://www.linkedin.com/in/alexia-mata171995/" target='blank'><img src={link} alt="" /></a>
+        <a href="https://github.com/AlexiaMata95" target='blank'><img src={git} alt="" /></a>
+      </div>
       <div className='navbar'>
       <a href="#about-me" className='navegacion'>
         Acerca de mí
