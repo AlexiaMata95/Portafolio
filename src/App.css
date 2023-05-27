@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+body{
+  border: dashed 5px #a90d5d;
+  background: linear-gradient(to bottom, black,#231237);
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Niconne', cursive;
+  color: #FFEAD7;
+  margin: 1rem;
+}
+
+.bienvenida{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 2rem;
+  width: 100%;
+}
+.bienvenida img{
+  height: 40vw;
+  width: auto;
+  border: dotted 5px #FFEAD7;
+  border-radius: 800px;
+  background-color: #a90d5d;
+}
+.bienvenida h1{
+  font-size: 8vw;
+  margin: 0 3rem;
+  font-weight: 400;
+}
+.bienvenida h2{
+  font-size: 6vw;
+  margin: 0 3rem;
+  font-weight: 400;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: calc;
+  margin: 4vw 0;
+}
+.navegacion{
+  text-decoration: none;
+  color: #FFEAD7;
+  margin: 0.5rem 2rem;
+  font-size: 3.5vw;
+  border: dashed 2px #FFEAD7;
+  border-radius: 30px;
+  padding: 0.5rem;
+}
+#about-me{
+  margin: 2rem;
+}
+.aboutme li{
+  display: flex;
+  flex-direction: row;
+  color: #FFEAD7;
+  font-size: 3vw;
+  align-items: center;
+  margin: 1.5rem 1rem;
+  font-weight: 200;
+}
+.aboutme img{
+  height: 6vw;
+  margin: 0.5rem 1.5rem;
+}
+.aboutme h1{
+  margin: 0 0 0 4rem;
+  font-size: 4vw;
+}
+.aboutme div{
+  font-size: 4vw;
+  color: #FFEAD7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#skills{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.tech{
+  text-align: center;
+  font-size: 4vw;
+  font-weight: 400;
+}
+.tech h1, h2{
+  margin: 1rem;
+}
+.frontend{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5vw;
+}
+.backend{
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5vw;
+}
+#portfolio{
+  text-align: center;
+}
+#portfolio h2{
+  font-size: 6vw;
+}
+.portfolio{
+  margin: 1rem;
+}
+.portfolio h3{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2vw;
+}
+.portfolio p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1vw;
+}
+.figure{
+  margin: 1vw 5.5vw;
+}
