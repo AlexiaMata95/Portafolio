@@ -8,7 +8,7 @@ import java from '../assets/java.png';
 import spring from '../assets/spring.png';
 import mysql from '../assets/mysql.png';
 
-const Back = () => {
+const back = () => {
   const techSkills = [
     { src: express, alt: "Express JS", caption: "Express JS" },
     { src: node, alt: "Node JS", caption: "Node JS" },
@@ -56,4 +56,4 @@ const Back = () => {
   );
 }
 
-export default Back;
+export default back;

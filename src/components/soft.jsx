@@ -5,7 +5,7 @@ import tiempo from '../assets/13.png';
 import emocion from '../assets/14.png';
 import prod from '../assets/15.png';
 
-const Soft = () => {
+const soft = () => {
   const softSkills = [
     { src: estres, alt: "Manejo de estrés", caption: "Manejo de estrés" },
     { src: tiempo, alt: "Gestión del tiempo", caption: "Gestión del tiempo" },
@@ -49,4 +49,4 @@ const Soft = () => {
   );
 }
 
-export default Soft;
+export default soft;
