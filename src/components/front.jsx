@@ -6,7 +6,7 @@ import js from '../assets/6.png';
 import react from '../assets/7.png';
 import bootstrap from '../assets/bootstrap.png';
 
-const Front = () => {
+const front = () => {
   const techSkills = [
     { src: html, alt: "HTML", caption: "HTML" },
     { src: css, alt: "CSS", caption: "CSS" },
@@ -52,4 +52,4 @@ const Front = () => {
   );
 }
 
-export default Front;
+export default front;

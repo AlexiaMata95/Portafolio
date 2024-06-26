@@ -4,7 +4,7 @@ import Presentacion from './components/Presentacion';
 import desc from './assets/2.png';
 import hobbies from './assets/1.png';
 import diploma from './assets/3.png';
-import Front from './components/Front';
+import Front from './components/front';
 import Back from './components/Back';
 import Soft from './components/Soft';
 import link from './assets/16.png';
