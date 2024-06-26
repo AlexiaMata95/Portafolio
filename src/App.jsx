@@ -10,7 +10,7 @@ import Soft from './components/soft';
 import link from './assets/16.png';
 import git from './assets/17.png';
 import mail from './assets/mail.png';
-import Carouselitem from './components/Carouselitem';
+import Carouselitem from './components/carouselitem';
 
 function App() {
   return (
