@@ -17,7 +17,7 @@ import javaLogo from '../assets/java.png';
 import mySQLogo from '../assets/mysql.png';
 import springLogo from '../assets/spring.png';
 
-const CarouselItem = () => {
+const carouselitem = () => {
   const logoMap = {
     HTML: htmlLogo,
     CSS: cssLogo,
@@ -139,4 +139,4 @@ const CarouselItem = () => {
   );
 }
 
-export default CarouselItem;
+export default carouselitem;
