@@ -32,7 +32,7 @@ const carouselitem = () => {
 
   const carouselItems = [
     {
-      src: pro15,
+      src: pro5,
       alt: "First slide",
       title: "E-commerce - Joya del Caribe",
       description: "Proyecto colaborativo fullstack",
@@ -68,14 +68,14 @@ const carouselitem = () => {
       technologies: ["HTML", "CSS", "JS", "Node.js", "React", "Bootstrap"],
     },
     {
-      src: pro5,
+      src: pro1,
       alt: "Fifth slide",
       title: "Landing de venta - Sweeties",
       description: "HTML semántico: uso de diferentes etiquetas y CSS con selectores",
       link: "https://alexiamata95.github.io/Landing-Venta/?classId=1986888c-f5d6-4a02-9d5a-ce0407356dac&assignmentId=9e1427ce-6236-4298-aa4d-d8d797ba0c92&submissionId=b4f1bc92-ee95-2274-4bc0-00a14b42dc02",
       type: "Individual",
       technologies: ["HTML", "CSS"],
-    }
+    },
   ];
 
   const captionStyle = {
