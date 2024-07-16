@@ -32,13 +32,13 @@ const carouselitem = () => {
 
   const carouselItems = [
     {
-      src: pro1,
+      src: pro15,
       alt: "First slide",
-      title: "Landing de venta - Sweeties",
-      description: "HTML semántico: uso de diferentes etiquetas y CSS con selectores",
-      link: "https://alexiamata95.github.io/Landing-Venta/?classId=1986888c-f5d6-4a02-9d5a-ce0407356dac&assignmentId=9e1427ce-6236-4298-aa4d-d8d797ba0c92&submissionId=b4f1bc92-ee95-2274-4bc0-00a14b42dc02",
-      type: "Individual",
-      technologies: ["HTML", "CSS"],
+      title: "E-commerce - Joya del Caribe",
+      description: "Proyecto colaborativo fullstack",
+      link: "http://13.58.46.147/index.html",
+      type: "Colaborativo",
+      technologies: ["HTML", "CSS", "JS","React", "Java", "Spring", "mySQL",],
     },
     {
       src: pro2,
@@ -70,12 +70,12 @@ const carouselitem = () => {
     {
       src: pro5,
       alt: "Fifth slide",
-      title: "E-commerce - Joya del Caribe",
-      description: "Proyecto colaborativo fullstack",
-      link: "http://13.58.46.147/index.html",
-      type: "Colaborativo",
-      technologies: ["HTML", "CSS", "JS","React", "Java", "Spring", "mySQL",],
-    },
+      title: "Landing de venta - Sweeties",
+      description: "HTML semántico: uso de diferentes etiquetas y CSS con selectores",
+      link: "https://alexiamata95.github.io/Landing-Venta/?classId=1986888c-f5d6-4a02-9d5a-ce0407356dac&assignmentId=9e1427ce-6236-4298-aa4d-d8d797ba0c92&submissionId=b4f1bc92-ee95-2274-4bc0-00a14b42dc02",
+      type: "Individual",
+      technologies: ["HTML", "CSS"],
+    }
   ];
 
   const captionStyle = {
