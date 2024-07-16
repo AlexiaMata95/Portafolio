@@ -72,7 +72,7 @@ const carouselitem = () => {
       alt: "Fifth slide",
       title: "E-commerce - Joya del Caribe",
       description: "Proyecto colaborativo fullstack",
-      link: "https://baomasu.github.io/JoyaDelCaribe/index.html",
+      link: "http://13.58.46.147/index.html",
       type: "Colaborativo",
       technologies: ["HTML", "CSS", "JS","React", "Java", "Spring", "mySQL",],
     },
