@@ -1,16 +1,12 @@
 import React from 'react';
 import { Figure, Container, Row, Col } from 'react-bootstrap';
-import estres from '../assets/manejoestres.png';
-import tiempo from '../assets/gestiontiempo.png';
-import emocion from '../assets/intemocional.png';
-import prod from '../assets/prodpersonal.png';
 
 const soft = () => {
   const softSkills = [
-    { src: estres, alt: "Manejo de estrés", caption: "Manejo de estrés" },
-    { src: tiempo, alt: "Gestión del tiempo", caption: "Gestión del tiempo" },
-    { src: emocion, alt: "Inteligencia emocional", caption: "Inteligencia emocional" },
-    { src: prod, alt: "Productividad personal", caption: "Productividad personal" },
+    { src: 'img/manejoestres.png', alt: "Manejo de estrés", caption: "Manejo de estrés" },
+    { src: 'img/gestiontiempo.png', alt: "Gestión del tiempo", caption: "Gestión del tiempo" },
+    { src: 'img/intemocional.png', alt: "Inteligencia emocional", caption: "Inteligencia emocional" },
+    { src: 'img/prodpersonal.png', alt: "Productividad personal", caption: "Productividad personal" },
   ];
 
   const figureStyle = {

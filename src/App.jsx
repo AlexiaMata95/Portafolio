@@ -2,9 +2,6 @@ import React from 'react';
 import './App.css';
 import Presentacion from './components/Presentacion';
 import Soft from './components/soft';
-import mail from './assets/mail.png';
-import link from './assets/linkedin.png';
-import git from './assets/github.png'
 // import Carouselitem from './components/carouselitem';
 import Experience from './components/Experience';
 import SkillsTech from './components/SkillsTech';
@@ -16,13 +13,13 @@ function App() {
         <Presentacion />
         <div className="contacto">
           <a href="https://www.linkedin.com/in/alexia-mata171995/" target="_blank" rel="noopener noreferrer">
-            <img src={link} alt="LinkedIn" />
+            <img src="img/linkedin.png" alt="LinkedIn" />
           </a>
           <a href="https://github.com/AlexiaMata95" target="_blank" rel="noopener noreferrer">
-            <img src={git} alt="GitHub" />
+            <img src='img/github.png' alt="GitHub" />
           </a>
           <a href="mailto:alexia.i.mata.perez@outlook.com" target="_blank" rel="noopener noreferrer">
-            <img src={mail} alt="Email" />
+            <img src='img/mail.png' alt="Email" />
           </a>
         </div>
         <div className="navbar">

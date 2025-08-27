@@ -6,91 +6,91 @@ const technicalSkills = [
     name: 'Java',
     level: 8,
     category: 'Backend',
-    logo: '../../src/assets/java.png', // Ajusta path
+    logo: 'img/java.png', 
   },
   {
     name: 'Spring Boot',
     level: 8,
     category: 'Backend',
-    logo: '../../src/assets/spring.png',
+    logo: 'img/spring.png',
   },
   {
     name: 'React JS',
     level: 7,
     category: 'Frontend',
-    logo: '../../src/assets/react.png',
+    logo: 'img/react.png',
   },
   {
     name: 'JavaScript (ES6+)',
     level: 7,
     category: 'Frontend',
-    logo: '../../src/assets/javascript.png',
+    logo: 'img/javascript.png',
   },
   {
     name: 'HTML5',
     level: 8,
     category: 'Frontend',
-    logo: '../../src/assets/html.png',
+    logo: 'img/html.png',
   },
   {
     name: 'CSS',
     level: 7,
     category: 'Frontend',
-    logo: '../../src/assets/css.png',
+    logo: 'img/css.png',
   },
   {
     name: 'PHP',
     level: 6,
     category: 'Backend',
-    logo: '../../src/assets/php.png', // Agrega asset si tienes
+    logo: 'img/php.png', // Agrega asset si tienes
   },
   {
     name: 'Node.js',
     level: 6,
     category: 'Backend',
-    logo: '../../src/assets/nodejs.png',
+    logo: 'img/nodejs.png',
   },
   {
     name: 'MySQL',
     level: 7,
     category: 'Databases',
-    logo: '../../src/assets/mysql.png',
+    logo: 'img/mysql.png',
   },
   {
     name: 'PostgreSQL',
     level: 7,
     category: 'Databases',
-    logo: '../../src/assets/postgres.png', // Agrega asset
+    logo: 'img/postgres.png', // Agrega asset
   },
   {
     name: 'JUnit',
     level: 7,
     category: 'Testing',
-    logo: '../../src/assets/testing.png', // Agrega asset
+    logo: 'img/testing.png', // Agrega asset
   },
   {
     name: 'Mockito',
     level: 7,
     category: 'Testing',
-    logo: '../../src/assets/testing.png', // Agrega asset
+    logo: 'img/testing.png', // Agrega asset
   },
   {
     name: 'Git',
     level: 8,
     category: 'Tools',
-    logo: '../../src/assets/github.png',
+    logo: 'img/github.png',
   },
   {
     name: 'Docker (básico)',
     level: 5,
     category: 'Tools',
-    logo: '../../src/assets/docker.png', // Agrega asset
+    logo: 'img/docker.png', // Agrega asset
   },
   {
     name: 'AWS (EC2, S3, IAM)',
     level: 6,
     category: 'Cloud',
-    logo: '../../src/assets/aws.png', // Agrega asset
+    logo: 'img/aws.png', // Agrega asset
   },
 ];
 
