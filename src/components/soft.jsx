@@ -1,9 +1,9 @@
 import React from 'react';
 import { Figure, Container, Row, Col } from 'react-bootstrap';
-import estres from '../assets/12.png';
-import tiempo from '../assets/13.png';
-import emocion from '../assets/14.png';
-import prod from '../assets/15.png';
+import estres from '../assets/manejoestres.png';
+import tiempo from '../assets/gestiontiempo.png';
+import emocion from '../assets/intemocional.png';
+import prod from '../assets/prodpersonal.png';
 
 const soft = () => {
   const softSkills = [

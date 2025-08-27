@@ -4,9 +4,14 @@ body{
   background: linear-gradient(to bottom, black,#231237);
   background-repeat: no-repeat;
   margin: 0;
-  font-family: 'Niconne', cursive;
+  font-family: Arial, Helvetica, sans-serif;
   color: #FFEAD7;
   margin: 1rem;
+  text-align: center;
+}
+
+h1, h2{
+  font-family: 'Niconne', cursive;
 }
 
 .bienvenida{
@@ -29,7 +34,7 @@ body{
   font-weight: 400;
 }
 .bienvenida h2{
-  font-size: 6vw;
+  font-size: 4vw;
   margin: 0 3rem;
   font-weight: 400;
 }
@@ -55,39 +60,12 @@ body{
   text-decoration: none;
   color: #FFEAD7;
   margin: 0.5rem 2rem;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   border: dashed 2px #FFEAD7;
   border-radius: 30px;
   padding: 0.5rem;
 }
-#about-me{
-  margin: 2rem;
-}
-.aboutme li{
-  display: flex;
-  flex-direction: row;
-  color: #FFEAD7;
-  font-size: 3vw;
-  align-items: center;
-  margin: 1.5rem 1rem;
-  font-weight: 200;
-}
-.aboutme img{
-  height: 6vw;
-  margin: 0.5rem 1.5rem;
-}
-.aboutme h1{
-  margin: 0 0 0 4rem;
-  font-size: 4vw;
-}
-.aboutme div{
-  font-size: 4vw;
-  color: #FFEAD7;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+
 #skills{
   display: flex;
   flex-direction: row;
@@ -106,27 +84,27 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 .backend{
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 #portfolio{
   text-align: center;
 }
 #portfolio h2{
-  font-size: 6vw;
+  font-size: 4vw;
 }
 .portfolio{
   margin: 1rem;
 }
 .portfolio h3{
   font-family: 'Courier New', Courier, monospace;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 .portfolio p{
   font-family: 'Courier New', Courier, monospace;
@@ -134,4 +112,22 @@ body{
 }
 .figure{
   margin: 1vw 5.5vw;
+}
+
+.experience-section{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.experience-section select {
+  background: black;
+  color: white;
+}
+.experience-section div{
+  background: none;
+  color: beige;
+  text-align: justify ;
+}
+.experience-section option {
+  background: black;
+  color: white;
 }
